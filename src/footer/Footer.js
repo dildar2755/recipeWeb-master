@@ -32,7 +32,7 @@ const Footer = () => {
                             </a>
                     </ul>
                 </div>
-                <div className="footer-copyright text-center py-3">© developed by: Abhishek kumar
+                <div className="footer-copyright text-center py-3">© developed by: Dildar Hussain
                     
                 </div>
             </footer>
