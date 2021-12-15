@@ -1,0 +1,55 @@
+.input{
+    background: url("./input.jpg") 100% center;
+    height: 400px;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.input h1{
+    color: white;
+    font-size: 50px;
+}
+
+.input div input{
+    width: 500px;
+    height: 30px;
+    border: 0;
+    margin: 5px;
+    font-size: 20px;
+    background-color: rgba(157,157,157, 0.8);
+}
+
+.input div button{
+    height: 32px;
+    position: relative;
+    top: -2px;
+}
+
+@media only screen and (max-width: 700px) {
+    .input {
+        background: url("./mobile.jpg") 100% center;
+        height: 300px;
+        color: black;
+    }
+
+    .input h1{
+        color: #000;
+        font-size: 30px;
+    }
+    
+    .input div input{
+        width: 300px;
+        height: 20px;
+        border: 0;
+        margin: 5px;
+        font-size: 15px;
+        background-color: rgba(157,157,157, 0.8);
+    }
+    
+    .input div button{
+        height: 22px;
+    }
+}

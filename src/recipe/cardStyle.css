@@ -1,0 +1,36 @@
+.card{
+    height: 400px;
+    width: 300px;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 15px 15px gray;
+    overflow: scroll;
+    border: 0.5px gray dotted;
+}
+
+.imageAndTitle {
+    text-align: center;
+    height: 300px;
+}
+
+.imageAndTitle img{
+    height: 200px;
+    width: 100%;
+}
+
+.cardDetails {
+    width: 300px;
+    height: auto;
+}
+
+.card:hover{
+    height: 400px;
+    width: 300px;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 15px 15px #bb4b4b;
+    overflow: scroll;
+    border: 0.5px gray dotted;
+}
